@@ -127,6 +127,14 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+.list {
+  max-width: max-content;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: "-  ";
+}
+
 
 /*
  * Affix and center
