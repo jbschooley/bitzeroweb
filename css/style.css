@@ -3,7 +3,10 @@
 }
 
 .btn-lg {
-    margin: .3rem;
+    margin: 0.3rem;
+    border-radius: 0.8rem;
+    background: rgba(255,255,255,0.9);
+    border: 1px solid rgba(255,255,255,0);
 }
 
 h1 {
@@ -11,8 +14,27 @@ h1 {
 }
 
 .tile {
+    display: block;
     line-height: 100px;
     border: white solid 2px;
     margin-bottom: 1rem;
     border-radius: 0.3rem;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-origin: content-box;
+    padding: 0 1rem;
+}
+
+.project-logo {
+    background: rgba(255,255,255,0.9);
+    border: 1px solid rgba(255,255,255,0);
+    height: 110px;
+    display: flex;
+}
+.project-logo img {
+    width: 100%;
+    margin: auto;
 }
