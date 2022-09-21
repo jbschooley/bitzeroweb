@@ -13,6 +13,12 @@ h1 {
     margin-bottom: 1rem;
 }
 
+.bitzero-logo {
+    max-width: 500px;
+    width: 100%;
+    padding: 10%;
+}
+
 .tile {
     display: block;
     line-height: 100px;
